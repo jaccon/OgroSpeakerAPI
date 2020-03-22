@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "castv2-client": "^1.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "google-tts-api": "^0.0.4",
+    "ping": "^0.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
